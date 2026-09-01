@@ -236,6 +236,7 @@ a {
   appearance: none;
   background: var(--wine);
   border: 1px solid var(--wine);
+  border-radius: 10px;
   color: white;
   cursor: pointer;
   display: inline-flex;
@@ -275,6 +276,7 @@ a {
   align-items: center;
   background: transparent;
   border: 1px solid var(--line);
+  border-radius: 10px;
   color: var(--wine);
   display: none;
   height: 43px;
@@ -969,6 +971,7 @@ a {
   button {
     background: transparent;
     border: 1px solid var(--line);
+    border-radius: 10px;
     color: var(--muted);
     cursor: pointer;
     font-size: 0.64rem;
@@ -1024,6 +1027,7 @@ a {
     align-items: center;
     background: var(--wine);
     border: 0;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
     display: flex;
@@ -1126,6 +1130,7 @@ a {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.14);
     border: 1px solid rgba(255, 255, 255, 0.32);
+    border-radius: 10px;
     color: white;
     cursor: pointer;
     display: flex;
@@ -1507,6 +1512,7 @@ a {
     align-items: center;
     background: transparent;
     border: 0;
+    border-radius: 10px;
     color: var(--ink);
     cursor: pointer;
     display: flex;
