@@ -764,7 +764,9 @@ export default function LashLanding() {
           </div>
         </div>
         <div className="container site-footer__bottom">
-          <span>© {new Date().getFullYear()} Kaylane Silva • Lash Designer</span>
+          <span>
+            © {new Date().getFullYear()} <a href="https://teamwebtecspace.vercel.app" target="_blank" rel="noopener noreferrer">TeamWeb - Soluções de T.I</a>
+          </span>
           <span>Imagens e vídeos demonstrativos: <a href="https://www.pexels.com/" target="_blank" rel="noreferrer">Pexels</a></span>
           <a href="#inicio">Voltar ao topo ↑</a>
         </div>

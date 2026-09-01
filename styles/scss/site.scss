@@ -133,12 +133,13 @@ a {
 }
 
 .brand__logo {
-  background: #f4b6ca;
-  border: 1px solid rgba(40, 26, 32, 0.12);
-  display: inline-flex;
-  height: 52px;
-  overflow: hidden;
-  width: 69px;
+  background: #f4b6ca24;
+    border: 1px solid rgba(40, 26, 32, 0.12);
+    display: inline-flex;
+    height: 52px;
+    overflow: hidden;
+    width: 69px;
+    border-radius: 5px;
 
   img {
     height: 100%;
@@ -1755,6 +1756,7 @@ a {
   text-transform: uppercase;
   transition: transform 180ms ease;
   z-index: 90;
+  border-radius: 10px;
 
   &:hover { color: white; transform: translateY(-3px); }
 }
